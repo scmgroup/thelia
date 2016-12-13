@@ -31,7 +31,7 @@ $cacheLoader->register(true);
 */
 
 
-$request = Request::createFromGlobals();
+$request = Request::createFromGlobals()
 
 $thelia = new Thelia("prod", false);
 //$thelia = new HttpCache($thelia);
