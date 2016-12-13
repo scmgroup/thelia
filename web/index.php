@@ -38,3 +38,5 @@ $thelia = new Thelia("prod", false);
 $response = $thelia->handle($request)->prepare($request)->send();
 
 $thelia->terminate($request, $response);
+
+//comment for changes
